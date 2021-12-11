@@ -4,9 +4,15 @@
 2. Play the included bling sound when the user clicks on `Hello World`
 3. If that was easy, then add some more visual bling to the page when the sound plays
 
-Look in the docs folder for a screenshot of the final layout.
+Look in the `docs` folder for a screenshot of the final layout.
 
 Implement this challenge using only javascript. You should not have to modify the html or css nor add any libraries.
+
+Your page should render correctly on a phone or desktop browser
+
+Feel free to consult anyone or use the internet for solutions. However, be ready to explain your approach and your code.
+
+It would be best if you could provide a single url to the page. You can use https://pages.github.com/ but really any hosting solution is fine.
 
 Hints:
 
