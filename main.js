@@ -20,6 +20,11 @@ function allWorkAndNoPlayisNoFunAtAll() {
 
 function playSound() {
 	mySound.play();
+	changeDisplay();
+	
+}
+
+function changeDisplay() {
 	document.getElementById("hello_world").style.color = "cyan";
 	document.getElementById("hello_world").style.display = "inline";
 	document.getElementById("hello_world").style.fontSize = "30pt";
@@ -27,8 +32,23 @@ function playSound() {
 	document.getElementById("hello_world").style.outlineStyle = "solid";
 	document.getElementById("hello_world").style.outlineColor = "white";
 	document.getElementById("h1").style.color = "slateBlue";
+	document.getElementById("hello_world").style.borderRadius = "12px";
+	document.getElementById("hello_world").style.padding = "3px 12px";
+	setTimeout(changeToO, 1000);
+	
 
 
+}
 
-
+function changeToCyan() {
+	document.getElementById("hello_world").style.color = "cyan";
+	document.getElementById("hello_world").style.outlineColor = "darkOrchid";
+	document.getElementById("hello_world").style.fontStyle = "italic";
+	setTimeout(changeToO, 1000);
+}
+function changeToO() {
+	document.getElementById("hello_world").style.color = "darkOrchid";
+	document.getElementById("hello_world").style.outlineColor = "cyan";
+	document.getElementById("hello_world").style.fontStyle = "normal";
+	setTimeout(changeToCyan, 1000);
 }
